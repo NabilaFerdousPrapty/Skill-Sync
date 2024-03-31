@@ -54,7 +54,7 @@ const Header = () => {
         </div>
         <div className="navbar-end">
           <NavLink to="/login" className="btn">
-            Login
+            Sign Up
           </NavLink>
         </div>
       </div>

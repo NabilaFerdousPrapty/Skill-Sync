@@ -5,9 +5,9 @@ export const Banner = () => {
   return (
     <div
       className="hero min-h-screen"
-      style={{ backgroundImage: `url(${bg})` }}
+      style={{ backgroundImage: `url(${bg})`,transform: 'rotate(180deg)'  }}
     >
-      <div className="hero-content text-center justify-between">
+      <div style={{transform: 'rotate(180deg)'}} className="hero-content  text-center justify-between flex-row-reverse">
         <img src={pic} alt="" />
         <div className="">
           <h1 className="mb-5 text-5xl font-bold">
