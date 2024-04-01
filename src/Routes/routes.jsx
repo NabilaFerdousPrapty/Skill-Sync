@@ -9,14 +9,17 @@ import MainLayout from "../Layouts/MainLayout";
 import Contact from "../Pages/Contact/Contact";
 import Login from "../components/Login/Login";
 import SignUp from "../components/SignUp/SignUp";
+import Error from "../Pages/Error/Error";
 export  const router = createBrowserRouter([
     {
         path:"/",
         element:<MainLayout/>,
+        errorElement:<Error/>,
         children:[
             {
                 path: "/",
                 element: <Home/>,
+               
           
               },
               {
